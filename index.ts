@@ -21,6 +21,7 @@ function dontReturn(str : string) : void{
     console.log("donot return anything");
 
 }
+dontReturn("")
 
 // never
 
@@ -58,7 +59,8 @@ arrayWithNumStr.map((item)=>{
 
 // twodimensioanl array
 
-var twodArray : number[][] = [
+var twodArray : (number|string)[][] = [
     [1,2,3,4,5],
-    [1,2,3,4]
+    [1,2,3,4],
+    ["sai"]
 ]
