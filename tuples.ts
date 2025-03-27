@@ -50,4 +50,5 @@ var myObj : userDetails = {
     isActive : true
 }
 
+export{}
 
