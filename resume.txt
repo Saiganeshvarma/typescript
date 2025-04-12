@@ -1,0 +1,111 @@
+\documentclass[11pt,a4paper,ragged2e,withhyper]{altacv} % Increased font size to 11pt
+
+\geometry{left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,columnsep=1.2cm} % Adjusted margins and column separation
+
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+
+\begin{document}
+\name{Abhinash}
+\tagline{Creative Frontend Developer | Problem Solver}
+\photoR{3cm}{profile-pic} % Optimized photo size for balance
+\personalinfo{
+  \phone{9704045757}
+  \email{gsvbahinash@gmail.com}
+  \linkedin{linkedin.com/in/abhinash}
+  \github{github.com/abhinashdev}
+  \location{Hyderabad, India}
+}
+
+\makecvheader
+
+\columnratio{} % Balanced column ratio for content distribution
+
+\begin{paracol}{}
+
+% Left Column
+\cvsection{Experience}
+\cvevent{Frontend Developer}{Godavari Wave Institute}{2025 -- Present}{}
+\begin{itemize}
+\item Developed \textbf{responsive web apps} using React.js, Tailwind CSS, and Bootstrap.
+\item Collaborated on \textbf{real-time projects} like e-commerce platforms and task management apps.
+\item Mentored junior developers and conducted \textbf{workshops on UI/UX design}.
+\end{itemize}
+
+\cvevent{Web Development Intern}{Tech Innovators}{20254-- 2025}{}
+\begin{itemize}
+\item Designed and deployed \textbf{client websites} for various industries.
+\item Enhanced user engagement by improving page load time by \textbf{30\%}.
+\item Implemented \textbf{SEO strategies} for higher search rankings.
+\end{itemize}
+
+\cvsection{Education}
+\cvevent{B.Sc. in Computer Science}{Sri Sai Degree College}{2019 -- 2022}{}
+\begin{itemize}
+\item Achieved \textbf{85\% aggregate}, excelling in programming and software development courses.
+\item Final Year Project: \textit{Real-time Traffic Monitoring System} using React and Firebase.
+\end{itemize}
+
+\cvsection{Skills}
+\cvtag{HTML5} \cvtag{CSS3} \cvtag{JavaScript} \cvtag{TypeScript} \cvtag{React.js} \cvtag{Next.js} \cvtag{Tailwind CSS}  
+\cvtag{Git \& GitHub} \cvtag{Bootstrap} \cvtag{Redux} \cvtag{Responsive Design}
+
+\cvsection{Projects}
+\cvevent{Portfolio Website}{}{Personal Project}{}
+\begin{itemize}
+\item Created a visually appealing, responsive portfolio using React.js, Tailwind CSS, and Framer Motion.
+\item Features include \textbf{dark mode toggle}, smooth animations, and SEO optimization.
+\end{itemize}
+\cvevent{Task Management App}{}{Personal Project}{}
+\begin{itemize}
+\item Built a task management app with \textbf{CRUD functionality} using React and TypeScript.
+\item Incorporated drag-and-drop for task reordering and state management with Redux.
+\end{itemize}
+
+\cvevent{Weather App}{}{Personal Project}{}
+\begin{itemize}
+\item Integrated \textbf{real-time weather API} and created a sleek, responsive interface.
+\item Styled using Bootstrap and React, with user-friendly features like location-based weather updates.
+\end{itemize}
+
+\divider
+
+\cvevent{E-Commerce Product Page}{}{Personal Project}{}
+\begin{itemize}
+\item Developed a dynamic product listing page with \textbf{sorting and filtering options}.
+\item Implemented \textbf{search functionality} and enhanced UX with animations.
+\end{itemize}
+
+% Right Column
+\switchcolumn
+
+\cvsection{Certifications}
+\cvevent{Frontend Development}{Godavari Wave Institute}{}{}
+\cvevent{React.js Advanced}{Udemy}{Certificate ID: XYZ123}{}  
+\cvevent{Git \& GitHub for Developers}{Coursera}{2024}{}  
+\cvevent{JavaScript Essentials}{LinkedIn Learning}{2024}{}  
+
+\cvsection{Languages}
+\cvtag{English (Fluent)}  
+\cvtag{Telugu (Native)}  
+\cvtag{Hindi (Intermediate)}  
+
+\cvsection{Awards}
+\cvachievement{\faTrophy}{\textbf{Best UI Designer Award}}{For building an innovative portfolio project.}
+\cvachievement{\faCertificate}{\textbf{Academic Excellence}}{Ranked top in the Computer Science department.}
+
+\cvsection{Hobbies}
+\cvtag{Coding Challenges} \cvtag{Gaming} \cvtag{Traveling} \cvtag{Photography}
+
+\end{paracol}
+
+\end{document}

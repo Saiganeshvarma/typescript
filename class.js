@@ -1,35 +1,52 @@
-"use strict";
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        if (typeof b !== "function" && b !== null)
-            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var Person = /** @class */ (function () {
-    function Person(name, age) {
-        this.name = name,
-            this.age = age;
+// // // class Person{
+// // //     name : string|number
+// // //     age : number|"yes"
+// // //     constructor(name,age){
+// // //         this.name = name,
+// // //         this.age = age
+// // //     }
+// // // }
+// // // class student extends Person{
+// // //     grade : number | string
+// // //     constructor(name : string, age : number,grade : number|string){
+// // //         super(name,age)
+// // //         this.grade = grade
+// // //     }
+// // // }
+// // // var details = new student("js",10,10)
+// // // details.grade = "yes"
+// // // export{}
+// // class details{
+// //     name : string
+// //     city : string
+// //     number : number
+// //     constructor(name,city,number){
+// //         this.name = name
+// //         this.city =city
+// //         this.number = number
+// //     }
+// // }
+// // var data = new details("","",9)
+// // console.log(data);
+// class details{
+//     name : string
+//     age : number
+//   readonly city : string
+//     constructor(name,age,city){
+//         this.name = name
+//         this.age = age
+//         this.city = city
+//     }
+// }
+// var data = new details("","",34)
+var details = /** @class */ (function () {
+    function details(name, age) {
+        this.name = name;
+        this.age = age;
+        this.name = name;
+        this.age = age;
     }
-    return Person;
+    return details;
 }());
-var student = /** @class */ (function (_super) {
-    __extends(student, _super);
-    function student(name, age, grade) {
-        var _this = _super.call(this, name, age) || this;
-        _this.grade = grade;
-        return _this;
-    }
-    return student;
-}(Person));
-var details = new student("js", 10, 10);
-console.log(details);
+var data = new details("", 6446);
+console.log(data);
