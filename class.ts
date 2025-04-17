@@ -3,6 +3,7 @@ class students{
     age : number
     city : string
     isActive : boolean
+    num : number
     constructor(name,age,city,isActive){
         this.name = name
         this.age = age
@@ -23,3 +24,5 @@ var data = new newData("",10,"",true,)
 console.log(data);
 
 export{}
+
+// for the testing the code
