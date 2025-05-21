@@ -10,11 +10,14 @@
 
     <script>
         var products = document.getElementById("products")
+        // function to fetch the data
         async function fetchData(){
             try {
+                // getting the response
                 var apiResponse = await fetch("https://fakestoreapi.com/products",{
                     method : 'Get'
                 })
+                // converting the respone into the json format
                 var result = await apiResponse.json()
                 console.log(result);
                 result.map((item)=>{
@@ -28,6 +31,7 @@
                 
             }
         }
+        // calling the function
         fetchData()
     </script>
     

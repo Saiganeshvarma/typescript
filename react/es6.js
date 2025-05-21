@@ -75,9 +75,9 @@
 // console.log(b);
 // console.log(a);
 
-var a = [1,1,1,1,2,3,4,5]
-var array = a.find((item)=>{
-    return item === 1
-})
+// var a = [1,1,1,1,2,3,4,5]
+// var array = a.find((item)=>{
+//     return item === 1
+// })
 
-console.log(array);
+// console.log(array);
